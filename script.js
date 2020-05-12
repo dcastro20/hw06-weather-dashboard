@@ -8,7 +8,7 @@ console.log(city);
 
 
 $.ajax({
-  url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&APPID=93559962949630625ba435f586d0d287",
+  url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&APPID=93559962949630625ba435f586d0d287",
   type: "GET",
   datatype: "jsonp",
   success: function(data){
