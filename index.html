@@ -22,31 +22,33 @@
   </nav>
 
   <!-- Page Layout here -->
-<div class="row">
-  <ul id="sideNav">
-    <div  class="col s3">
-      <!-- Grey navigation panel -->
-      <li><input placeholder="City" id="cityName" type="text" class="validate"></li>
-      <label for="city_name"></label>
-      <li><button id="button" class="indigo lighten-3 btn-small align= right">Search</button></li>
-      <br>
-      <ul id= "cityList"></ul>
-    </div>
-    
-  </ul>
+  <div class="row">
+    <ul id="sideNav">
+      <div class="col s3">
+        <!-- Grey navigation panel -->
+        <li><input placeholder="City" id="cityName" type="text" class="validate"></li>
+        <label for="city_name"></label>
+        <li><button id="button" class="indigo lighten-3 btn-small align= right">Search</button></li>
+        <br>
+        <ul id="cityList"></ul>
+      </div>
 
-  <div class="col s9">
-    <!-- Teal page content  -->
-    <div class="row">
-      <div class="col s9 m5">
-        <div class="card-panel indigo lighten-3" id="info">
-          <div id="cityDate">
-            <div id="temp">
-              <div id="humid"> 
-                <div id="wind">
-                  <div id="uvIndex">    
-                <span class="white-text">
-                </span>
+    </ul>
+
+    <div class="col s9">
+      <!-- Teal page content  -->
+      <div class="row">
+        <div class="col s9 m5">
+          <div class="card-panel indigo lighten-3" id="info">
+            <div class="card-content white-text">
+              <p><b><span id="date"></span></b></p>
+              <div id="cityDate">
+                <div id="temp">Temperature:
+                  <div id="humid">Humidity:
+                    <div id="wind">Wind Speed:
+                      <div id="uvIndex">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -54,18 +56,18 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <script src="script.js"></script>
+      <div id="forecast"></div>
 
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="script.js"></script>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <!--JavaScript at end of body for optimized loading-->
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <!--JavaScript at end of body for optimized loading-->
 
 </body>
 
